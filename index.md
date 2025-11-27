@@ -2,7 +2,8 @@
 
 🔥 1) Pin Bar
 ## 📌 Pin Bar
-![Pin-Bar](images/pin-bar/Pin-Bar-Candlestick-Pattern.jpg)
+
+<img src="images/pin-bar/OIP.jpg" width="300" /><br>
 
 สัญญาณกลับตัว เมื่อไส้แท่งยาวไปทางหนึ่ง และตัวแท่งเล็กมาก
 
@@ -15,7 +16,8 @@
 🔥 2) Hammer
 
 ## 📌 Hammer
-![Hammer](images/hammer/Inverted-Hammer-Candlestick-Pattern--1024x743.jpg)
+
+<img src="images/hammer/Inverted-Hammer-Candlestick-Pattern--1024x743.jpg" width="300" /><br>
 
 Hammer = รูปแบบกลับตัวขาขึ้น
 
@@ -30,7 +32,8 @@ Hammer = รูปแบบกลับตัวขาขึ้น
 🔥 3) Engulfing (Bullish / Bearish)
 
 ## 📌 Bullish Engulfing
-![Engulfing](images/engulfing/bullish-engulfing.jpg)
+
+<img src="images/engulfing/bullish-engulfing.jpg" width="300" /><br>
 
 Bullish Engulfing
 
