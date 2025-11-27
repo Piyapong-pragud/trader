@@ -2,7 +2,7 @@
 
 🔥 1) Pin Bar
 ## 📌 Pin Bar
-[Pin Bar](images/Pin-Bar-Candlestick-Pattern)
+![Pin Bar](/images/ping-bar/Pin-Bar-Candlestick-Pattern.jpg)
 
 สัญญาณกลับตัว เมื่อไส้แท่งยาวไปทางหนึ่ง และตัวแท่งเล็กมาก
 
