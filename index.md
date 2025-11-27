@@ -1,5 +1,8 @@
 📌 ตัวอย่าง: Pin Bar / Hammer / Engulfing (ดูง่าย ชัด ใช้ได้จริง)
+
 🔥 1) Pin Bar
+## 📌 Pin Bar
+![Pin Bar](https://upload.wikimedia.org/wikipedia/commons/7/7c/Pinbar.svg)
 
 สัญญาณกลับตัว เมื่อไส้แท่งยาวไปทางหนึ่ง และตัวแท่งเล็กมาก
 
@@ -10,6 +13,9 @@
 ใช้ดีสุดเมื่อเกิด ที่แนวรับ/แนวต้าน หรือ Fibonacci Zone
 
 🔥 2) Hammer
+
+## 📌 Hammer
+![Hammer](https://www.babypips.com/wp-content/uploads/2022/09/hammer-candlestick.jpg)
 
 Hammer = รูปแบบกลับตัวขาขึ้น
 
@@ -22,7 +28,9 @@ Hammer = รูปแบบกลับตัวขาขึ้น
 ถ้า Volume เพิ่ม → ยิ่งแรง
 
 🔥 3) Engulfing (Bullish / Bearish)
-4
+
+## 📌 Bullish Engulfing
+![Engulfing](https://www.babypips.com/wp-content/uploads/2022/09/bullish-engulfing.png)
 
 Bullish Engulfing
 
