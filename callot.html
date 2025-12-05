@@ -1,21 +1,40 @@
-<h3>Lot Size Calculator (Mini Account)</h3>
+<div style="max-width:400px;padding:20px;border:1px solid #ccc;border-radius:10px;">
+<h2>📌 Lot Size Calculator (Risk Based)</h2>
 
-<label>Risk ($):</label>
-<input id="risk" type="number" value="10"><br>
+<label>Entry Price</label>
+<input id="entry" type="number" step="0.00001" style="width:100%"><br><br>
 
-<label>Stop Loss (pips):</label>
-<input id="sl" type="number" value="50"><br>
+<label>Stop Loss Price</label>
+<input id="sl" type="number" step="0.00001" style="width:100%"><br><br>
 
-<button onclick="calc()">Calculate Lot</button>
+<label>Risk ($)</label>
+<input id="risk" type="number" step="0.01" style="width:100%"><br><br>
 
-<p id="result"></p>
+<label>Pip Size (forex = 0.0001)</label>
+<input id="pip" type="number" step="0.00001" value="0.0001" style="width:100%"><br><br>
+
+<button onclick="lotCalc()" style="padding:10px;width:100%;background:#333;color:#fff;border:none;">Calculate</button>
+
+<p id="out" style="font-size:18px;font-weight:bold;"></p>
+</div>
 
 <script>
-function calc(){
-  let risk = parseFloat(document.getElementById("risk").value);
-  let sl = parseFloat(document.getElementById("sl").value);
-  let lot = risk / (sl * 0.10);
-  document.getElementById("result").innerText = 
-      "Recommended Lot = " + lot.toFixed(2);
+function lotCalc() {
+    let entry = parseFloat(document.getElementById("entry").value);
+    let sl = parseFloat(document.getElementById("sl").value);
+    let risk = parseFloat(document.getElementById("risk").value);
+    let pip = parseFloat(document.getElementById("pip").value);
+
+    // จำนวน pips ระหว่าง Entry → SL
+    let pips = Math.abs(entry - sl) / pip;
+
+    // Mini account XM = $0.1 per pip เมื่อใช้ lot 0.01
+    // ดังนั้น $1/pip = lot 0.1
+    // สูตร: lot = risk / (pips * value_per_pip)
+    let value_per_pip = 1 / 0.1; // = $10 per 1 lot → $1 per 0.1 lot
+    let lot = risk / (pips * value_per_pip);
+
+    document.getElementById("out").innerHTML =
+        "Lot Size: " + lot.toFixed(3) + " lots";
 }
 </script>
