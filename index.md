@@ -1,7 +1,9 @@
-##🟦 FLOWCHART – HYBRID SYSTEM [system Trader](hybrid.md)[lot](callot.html)
+##🟦 FLOWCHART – HYBRID SYSTEM [lot](callot.html)
 
 ---
-## 🧭 FLOWCHART – HYBRID SYSTEM
+## 🧭 FLOWCHART – HYBRID SYSTEM 
+
+[System Trader](hybrid.md)
 
 เริ่ม  
 ├─ ดูเทรนด์ใหญ่ H4/H1  
