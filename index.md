@@ -1,4 +1,4 @@
-##🟦 FLOWCHART – HYBRID SYSTEM
+## 🟦 FLOWCHART – HYBRID SYSTEM
 
 ---
 ## 🧭 FLOWCHART – HYBRID SYSTEM 
