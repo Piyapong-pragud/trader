@@ -119,7 +119,7 @@ Volume แสดงการเทขายหรือเทซื้อชั�
 
 Lot size = Money_to_risk / (StopLoss_in_pip × PipValue_per_Lot)
 
-[lot](trader/callot.html)
+[lot](callot.html)
 
 
 ### ตัวอย่าง EURUSD
