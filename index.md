@@ -2,43 +2,24 @@
 
 ---
 เริ่ม
- ↓
-ดูเทรนด์ใหญ่ H4/H1
- ├─ ขาขึ้น → โฟกัส Buy
- └─ ขาลง  → โฟกัส Sell
- ↓
-ตี Trendline + วัด Fibo + วาด Channel
- ↓
-ราคาอยู่โซนไหน?
+ └─► ดูเทรนด์ใหญ่ H4/H1
+       ├─ ขาขึ้น → โฟกัส Buy
+       ├─ ขาลง → โฟกัส Sell
+       └─ Sideway → วัด Fibo + Trendline + Channel
+           └─► อยู่โซนไหน?
 
-(1) อยู่บนแนวรับ Fibo 61–78%
-    ↓
-    รอแท่งกลับตัว (Pin bar / Engulfing) ที่ H1/M30
-    ↓
-    เข้า Buy/Sell ตามเทรนด์ (Entry A)
-    SL = ทะลุ 100%
-    TP = 0% หรือ RR ≥ 1:2
+             ├─ Fibo 61–78%
+             │     └─ Signal กลับตัว → Entry A
+             │            ├─ SL หลุด 100%
+             │            └─ TP 0% หรือ RR ≥ 1:2
+             ├─ Break Trendline → Entry B
+             │       ├─ SL หลุด TL
+             │       └─ TP Swing High/Low
+             └─ ขอบ Channel → Entry C
+                    ├─ SL หลุดกรอบ 1 แท่ง
+                    └─ TP Midline
 
-(2) ราคา Breakout Trendline
-    ↓
-    รอการยืนเหนือ / ใต้ Trendline
-    ↓
-    เข้า Buy/Sell แบบต่อเทรนด์ (Entry B)
-    SL = กลับเข้าเส้น TL อีกครั้ง
-    TP = Swing High / Low
-
-(3) ราคาแตะกรอบ Channel บน/ล่าง
-    ↓
-    ดูแท่งกลับตัวแรง เช่น Engulfing
-    ↓
-    เข้าแบบสวนเทรนด์ระยะสั้น (Entry C)
-    SL = หลุดกรอบ Channel 1 ช่วงแท่ง
-    TP = กลับไปกลาง Channel (Midline)
-
-เมื่อราคาไปถึง +38.2%
- ↓
-เลื่อน SL → บริเวณ 61.8% เพื่อกันกำไร
-
+เมื่อราคาถึง 38.2% → เลื่อน SL ขึ้น 61.8%
 จบไม้
 
 ---
