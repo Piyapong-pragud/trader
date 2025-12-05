@@ -1,4 +1,4 @@
-##🟦 FLOWCHART – HYBRID SYSTEM [lot](callot.html)
+##🟦 FLOWCHART – HYBRID SYSTEM [system Trader](hybrid.md)[lot](callot.html)
 
 ---
 ## 🧭 FLOWCHART – HYBRID SYSTEM
