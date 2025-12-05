@@ -1,0 +1,21 @@
+<h3>Lot Size Calculator (Mini Account)</h3>
+
+<label>Risk ($):</label>
+<input id="risk" type="number" value="10"><br>
+
+<label>Stop Loss (pips):</label>
+<input id="sl" type="number" value="50"><br>
+
+<button onclick="calc()">Calculate Lot</button>
+
+<p id="result"></p>
+
+<script>
+function calc(){
+  let risk = parseFloat(document.getElementById("risk").value);
+  let sl = parseFloat(document.getElementById("sl").value);
+  let lot = risk / (sl * 0.10);
+  document.getElementById("result").innerText = 
+      "Recommended Lot = " + lot.toFixed(2);
+}
+</script>
