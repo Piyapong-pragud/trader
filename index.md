@@ -1,25 +1,37 @@
 ##🟦 FLOWCHART – HYBRID SYSTEM
 
 ---
-เริ่ม
- └─► ดูเทรนด์ใหญ่ H4/H1
-       ├─ ขาขึ้น → โฟกัส Buy
-       ├─ ขาลง → โฟกัส Sell
-       └─ Sideway → วัด Fibo + Trendline + Channel
-           └─► อยู่โซนไหน?
+## 🧭 FLOWCHART – HYBRID SYSTEM
 
-             ├─ Fibo 61–78%
-             │     └─ Signal กลับตัว → Entry A
-             │            ├─ SL หลุด 100%
-             │            └─ TP 0% หรือ RR ≥ 1:2
-             ├─ Break Trendline → Entry B
-             │       ├─ SL หลุด TL
-             │       └─ TP Swing High/Low
-             └─ ขอบ Channel → Entry C
-                    ├─ SL หลุดกรอบ 1 แท่ง
-                    └─ TP Midline
+เริ่ม  
+├─ ดูเทรนด์ใหญ่ H4/H1  
+│   ├─ ถ้าขาขึ้น → โฟกัส Buy  
+│   └─ ถ้าขาลง → โฟกัส Sell  
+│  
+├─ ถ้า Sideway  
+│   └─ วัด Fibo + วัด Trendline + วาด Channel → ดูว่าราคาอยู่โซนไหน?  
+│  
+├─ Fibo 61–78%  
+│   ├─ รอสัญญาณกลับตัว (Pin bar / Engulfing) ที่ H1/M30  
+│   ├─ Entry A  
+│   ├─ SL = หลุด 100%  
+│   └─ TP = 0% หรือ RR ≥ 1:2  
+│  
+├─ Break Trendline  
+│   ├─ รอแท่งยืนเหนือ/ใต้ TL  
+│   ├─ Entry B  
+│   ├─ SL = หลุดเส้น TL  
+│   └─ TP = Swing High / Swing Low  
+│  
+├─ ขอบ Channel บน/ล่าง  
+│   ├─ ดูแท่งกลับตัวแรง เช่น Engulfing  
+│   ├─ Entry C  
+│   ├─ SL = หลุดกรอบ Channel 1 ช่วงแท่ง  
+│   └─ TP = กลับไป Midline  
+│  
+└─ เงื่อนไขการเลื่อน SL  
+    └─ เมื่อราคา +38.2% → เลื่อน SL ขึ้นเหนือ 61.8% เพื่อเก็บกำไรแบบปลอดภัย
 
-เมื่อราคาถึง 38.2% → เลื่อน SL ขึ้น 61.8%
 จบไม้
 
 ---
